@@ -1,0 +1,46 @@
+#header {
+    background-color: rgb(224, 185, 252);
+    text-align: center;
+    margin-bottom: 50px; 
+    margin-top: 50px;
+    font-family: 'Kanit', sans-serif;  
+}
+#nameandtitle {
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    width: 500px;
+    margin:0 auto; 
+    
+}
+#nameandtitle h1, h2 {
+    margin: 0px;
+}
+h1,h2,h3 {
+text-transform: uppercase;
+}
+#contact{
+    list-style-type:none;
+}
+#contact i {
+    width: 30px;
+    color: rgb(224, 185, 252);
+}
+#container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20ex; 
+}
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+h3 {
+    font-family: 'Kanit', sans-serif; 
+}
+.card{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid  rgb(224, 185, 252);
+    border-radius: 15px;
+    padding: 20px;
+}
